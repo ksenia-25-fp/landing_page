@@ -15,9 +15,15 @@ footer {
     width: 100%;
 }
 
+header {
+    height: 530px;
+}
+
 .header1 {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 110px;
+    padding-top: 10px;
 }
 
 ul {
@@ -55,9 +61,8 @@ a {
 
 .main-part-header, img {
     gap: 50px;
+    margin-bottom: 100px;
 }
-
-
 
 .header-left-side {
     display: flex;
@@ -73,7 +78,14 @@ a {
 
 button {
     background-color: #3882f6;
+    font-size: 18px;
+    font-weight: 500;
     color: #f9faf8;
+    margin-top: 15px;
+    border-radius: 10px;
+    width: 140px;
+    height: 40px;
+    border: none;
 } 
 
 .sign-up2 {
@@ -85,7 +97,6 @@ button {
     font-weight: 900;
     color: #1F2937;
 }
-
 
 .picture-text {
     display: flex;
