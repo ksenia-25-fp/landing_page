@@ -1,11 +1,11 @@
 body {
-    margin: 0;
     font-family: 'Roboto';
+    margin: 0;
 }
 
-.container {
+.container { 
+    margin: 0 auto;
     max-width: 1000px; 
-    margin: 0 auto; 
     padding: 0 20px;
 }
 
@@ -31,27 +31,31 @@ ul {
 }
 
 a {
-    text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 .heading {
-    font-size: 48px;
     color: #f9faf8;
+    font-size: 48px;
     font-weight: 900;
 }
 
 .header-logo {
-    font-size: 24px;
     color: #f9faf8;
+    font-size: 24px;
     font-weight: 600;
 }
 
 .header-logo, 
 .links {
-    display: flex;
     align-items: center;
+    display: flex;
     gap: 20px;
 }
 
@@ -72,20 +76,25 @@ a {
 
 .secondary-text,
 .text {
-    font-size: 18px;
     color: #e5e7eb;
+    font-size: 18px;
 }
 
 button {
     background-color: #3882f6;
+    border: none;
+    border-radius: 10px;
+    color: #f9faf8;
     font-size: 18px;
     font-weight: 500;
-    color: #f9faf8;
-    margin-top: 15px;
-    border-radius: 10px;
-    width: 140px;
     height: 40px;
-    border: none;
+    margin-top: 15px;
+    width: 140px;
+    cursor: pointer;
+    
+    &:hover {
+        transform: scale3d(1.05,1.05,1.05);
+    }
 } 
 
 .sign-up2 {
@@ -93,16 +102,16 @@ button {
 }
 
 .hero {
-    height: 510px;
     box-sizing: border-box;
+    height: 510px;
     padding-top: 50px;
 }
 
 .information-heading {
-    font-size: 36px;
-    font-weight: 900;
     color: #1F2937;
     display: flex;
+    font-size: 36px;
+    font-weight: 900;
     justify-content: center;
     margin-bottom: 50px;
     
@@ -110,22 +119,21 @@ button {
 
 .flex-container {
     display: flex;
-
 }
 
 .picture-text {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .picture-text img {
+    background-color: white;
     border: 4px solid #3882f6;
     border-radius: 12px;
+    margin: 0;
     overflow: hidden; 
     width: 200px;
-    background-color: white;
-    margin: 0;
 }
 
 .subtext {
@@ -136,11 +144,11 @@ button {
 }
 
 .quote {
-    height: 430px;
     background-color: #e5e7eb;
+    color: #1F2937;
     font-size: 36px;
     font-weight: 300;
-    color: #1F2937;
+    height: 430px;
 }
 
 .quote-container {
@@ -161,21 +169,21 @@ button {
 .blue-square {
     background-color: #3882f6;
     border-radius: 10px;
-    margin: 85px 0px;
     display: flex;
     justify-content: space-evenly;
+    margin: 85px 0px;
     padding: 50px;
 }
 
 .heading-call {
-    font-size: 24px;
     color: #f9faf8;
+    font-size: 24px;
 }
 
 footer {
-    height: 100px;
-    display: grid;
-    place-items: center;
     color: #f9faf8;
+    display: grid;
     font-size: 18px;
+    height: 100px;
+    place-items: center;
 }
