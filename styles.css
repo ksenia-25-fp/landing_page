@@ -154,8 +154,17 @@ button {
     text-align: end;
 }
 
+.cta {
+    height: 240px;
+}
+
 .blue-square {
     background-color: #3882f6;
+    border-radius: 10px;
+    margin: 85px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
 }
 
 .heading-call {
