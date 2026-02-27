@@ -171,3 +171,11 @@ button {
     font-size: 24px;
     color: #f9faf8;
 }
+
+footer {
+    height: 100px;
+    display: grid;
+    place-items: center;
+    color: #f9faf8;
+    font-size: 18px;
+}
