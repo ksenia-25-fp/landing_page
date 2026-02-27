@@ -92,40 +92,66 @@ button {
     border: 1px solid #e5e7eb;
 }
 
+.hero {
+    height: 510px;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+
 .information-heading {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+
+.flex-container {
+    display: flex;
+
 }
 
 .picture-text {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .picture-text img {
     border: 4px solid #3882f6;
     border-radius: 12px;
     overflow: hidden; 
-    width: 300px;
+    width: 200px;
     background-color: white;
-    display: block;
+    margin: 0;
 }
 
 .subtext {
     color: #c5c7cb;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
 }
 
 .quote {
+    height: 430px;
     background-color: #e5e7eb;
     font-size: 36px;
     font-weight: 300;
     color: #1F2937;
 }
 
+.quote-container {
+    padding: 117px 110px;
+}
+
 .attribution {
     font-size: 24px;
     font-weight: 400;
+    margin-top: 10px;
+    text-align: end;
 }
 
 .blue-square {
