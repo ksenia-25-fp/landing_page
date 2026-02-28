@@ -1,12 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
     margin: 0;
-}
-
-.container { 
-    margin: 0 auto;
-    max-width: 1000px; 
-    padding: 0 20px;
 }
 
 header, 
@@ -16,15 +11,15 @@ footer {
 }
 
 header {
-    width: 100%;
     padding-bottom: 100px;
+    width: 100%;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 110px;
-    padding-top: 30px;
+footer {
+    color: #f9faf8;
+    display: grid;
+    padding: 20px 0;
+    place-items: center;
 }
 
 ul {
@@ -35,12 +30,39 @@ ul {
 
 a {
     color: #e5e7eb;
-    font-size: 18px;
     text-decoration: none;
 
     &:hover {
         text-decoration: underline;
     }
+}
+
+button {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 10px;
+    color: #f9faf8;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 40px;
+    
+    &:hover {
+        transform: scale3d(1.05,1.05,1.05);
+    }
+} 
+
+.container { 
+    margin: 0 auto;
+    max-width: 1000px; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 110px;
+    padding-top: 30px;
 }
 
 .heading {
@@ -72,34 +94,15 @@ a {
 }
 
 .hero-left-side {
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
 }
 
-
-.secondary-text,
 .text {
     color: #e5e7eb;
-    font-size: 18px;
-    margin: 0;
-    padding: 10px 0;
+    margin: 10px 0;
 }
-
-button {
-    background-color: #3882f6;
-    border: none;
-    border-radius: 10px;
-    color: #f9faf8;
-    font-size: 18px;
-    font-weight: 500;
-    height: 40px;
-    width: 140px;
-    cursor: pointer;
-    
-    &:hover {
-        transform: scale3d(1.05,1.05,1.05);
-    }
-} 
 
 .btn-outline {
     border: 2px solid #e5e7eb;
@@ -107,22 +110,21 @@ button {
 
 .information {
     box-sizing: border-box;
-    padding: 50px 0 160px;
+    padding: 10px 0 160px;
 }
 
 .information-heading {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
+    margin-bottom: 60px;
     text-align: center;
-    margin: 0px;
-    padding-bottom: 50px;
 }
 
 .cards-grid {
     display: flex;
-    justify-content: center;
     gap: 40px;
+    justify-content: center;
 }
 
 .card {
@@ -142,7 +144,6 @@ button {
 
 .subtext {
     color: #c5c7cb;
-    font-size: 18px;
     margin-top: 10px;
     text-align: center;
 }
@@ -154,10 +155,10 @@ button {
     font-weight: 300;
 }
 
-.quote-context {
-    padding: 100px 0;
-    max-width: 800px; 
+.quote-context { 
     margin: 0 auto;
+    max-width: 800px;
+    padding: 100px 0;
 }
 
 .quote-text {
@@ -171,16 +172,16 @@ button {
     text-align: end;
 }
 
-.cta {
+.cta-block {
     padding: 100px 0;
 }
 
 .cta-banner {
+    align-items: center;
     background-color: #3882f6;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 40px 90px;
 }
 
@@ -188,12 +189,4 @@ button {
     color: #f9faf8;
     font-size: 24px;
     margin: 0;
-}
-
-footer {
-    color: #f9faf8;
-    display: grid;
-    font-size: 18px;
-    height: 100px;
-    place-items: center;
 }
