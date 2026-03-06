@@ -5,7 +5,7 @@ A responsive and cozy landing page for a fictional book club community, created 
 Chapter & Chatter is a landing page designed to invite book lovers to join weekly meetings, share their thoughts ("chatter"), and discover new literature over coffee. This project focuses on clean layout, semantic HTML, and professional CSS architecture.
 
 - Features
-Semantic Structure: Built using modern HTML5 tags (<header>, <section>, <footer>) for better accessibility.
+Semantic Structure: Built using modern HTML5 tags for better accessibility.
 
 Professional CSS: Utilizes Flexbox and Grid for layout, avoiding fixed heights to ensure responsiveness.
 
@@ -25,7 +25,7 @@ Git (Version Control)
 
 iPad (Digital Illustration)
 
--Learning Progress
+- Learning Progress
 This project marks the completion of my initial HTML/CSS training.
 
 Key Skills: Box model mastery, CSS architecture, refactoring, and creative asset creation.
