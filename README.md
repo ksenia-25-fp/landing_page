@@ -1,24 +1,31 @@
-# landing_page - The Odin Project
+Chapter & Chatter — Book Club Landing Page
+A responsive and cozy landing page for a fictional book club community, created as a final project for the Foundations stage of my web development journey.
 
-This is a solution to the [Landing Page assignment](https://www.theodinproject.com/lessons/foundations-landing-page) from The Odin Project.
+- About the Project
+Chapter & Chatter is a landing page designed to invite book lovers to join weekly meetings, share their thoughts ("chatter"), and discover new literature over coffee. This project focuses on clean layout, semantic HTML, and professional CSS architecture.
 
-## Description
+- Features
+Semantic Structure: Built using modern HTML5 tags (<header>, <section>, <footer>) for better accessibility.
 
-The goal of this project was to build a landing page from a provided design image using **Flexbox**. The main focus was to practice CSS layout techniques, positioning, and building a clean structure without relying on frameworks.
+Professional CSS: Utilizes Flexbox and Grid for layout, avoiding fixed heights to ensure responsiveness.
 
-The webpage consists of:
-- **Header** with a logo and navigation links.
-- **Hero section** with a main title, description, and a call-to-action button.
-- **Information section** with illustrated cards.
-- **Testimonial/Quote section**.
-- **Call to Action** banner.
-- **Footer**.
+Global Typography: Implemented a scalable font system with inheritance for a consistent look.
 
-## Built With
+Custom Branding: A unique name and concept ("Chapter & Chatter") designed to create a warm, community-focused feel.
 
-- **HTML5** (Semantic structure)
-- **CSS3** (Custom properties, Flexbox)
-- **Flexbox** (For main layout and alignment)
-- **Google Fonts** (Roboto)
----
-*Created as part of The Odin Project curriculum.*
+- Design & Illustrations
+Special Feature: All icons and visual elements in the "Why you'll love it here" section were hand-drawn and custom-designed by me using Autodesk Sketchbook and Goodnotes on iPad. This gives the site a unique, artisanal brand identity that stands out from generic templates.
+
+- Tech Stack
+HTML5
+
+CSS3 (Flexbox, Grid, Custom Properties)
+
+Git (Version Control)
+
+iPad (Digital Illustration)
+
+-Learning Progress
+This project marks the completion of my initial HTML/CSS training.
+
+Key Skills: Box model mastery, CSS architecture, refactoring, and creative asset creation.
