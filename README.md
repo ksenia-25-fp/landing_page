@@ -17,7 +17,7 @@ This project focuses on:
 * **Custom Branding**: A unique name and concept designed to create a warm, community-focused feel.
 
 ## Design and Illustrations
-> **Special Feature**: All icons and visual elements in the "Why you'll love it here" section were hand-drawn and custom-designed by me using Autodesk Sketchbook and Goodnotes on iPad.
+> **Special Feature**: All icons and visual elements in the "Why you'll love it here" section were hand-drawn and custom-designed by me using Sketchbook on iPad.
 
 This gives the site a unique, artisanal brand identity that stands out from generic templates.
 
