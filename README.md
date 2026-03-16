@@ -17,7 +17,7 @@ This project focuses on:
 * **Custom Branding**: A unique name and concept designed to create a warm, community-focused feel.
 
 ## Design and Illustrations
-> **Special Feature**: All icons and visual elements in the "Why you'll love it here" section were hand-drawn and custom-designed by me using Sketchbook on iPad.
+> **Special Feature**: All visual assets, including the logo, header illustration, and icons in the "Why you'll love it here" section, were hand-drawn and custom-designed by me specifically for this project using Sketchbook on iPad.
 
 This gives the site a unique, artisanal brand identity that stands out from generic templates.
 
@@ -29,5 +29,3 @@ This gives the site a unique, artisanal brand identity that stands out from gene
 
 ## Learning Progress
 This project marks the completion of my initial HTML/CSS training.
-* **Total Time Invested**: Over 30 hours of focused study in February 2026.
-* **Key Skills**: Box model mastery, CSS architecture, refactoring, and creative asset creation.
